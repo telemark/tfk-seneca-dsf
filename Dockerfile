@@ -29,10 +29,9 @@ RUN npm install --production
 
 # Env variables
 ENV TFK_SENECA_DSF_TAG tfk-seneca-dsf
-ENV TFK_SENECA_DSF_URL https://dsf.no
 ENV TFK_SENECA_DSF_HOST localhost
 ENV TFK_SENECA_DSF_PORT 8000
-ENV TFK_SENECA_DSF_SYSTEMNAME Systemname
+ENV TFK_SENECA_DSF_SYSTEM_NAME Systemname
 ENV TFK_SENECA_DSF_SYSTEM_URL http://ws-test.infotorg.no/xml/ErgoGroup/DetSentraleFolkeregister1_4/2015-08-10/DetSentraleFolkeregister1_4.wsdl
 ENV TFK_SENECA_DSF_USERNAME username
 ENV TFK_SENECA_DSF_PASSORD password
