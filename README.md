@@ -1,4 +1,6 @@
 # tfk-seneca-dsf
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-seneca-dsf.svg)](https://greenkeeper.io/)
 Microservice for dsf lookups
 
 ```curl -d '{"role": "dsf", "cmd":"lookup", "foedselsnr":"01010750160"}' -v http://localhost:8000/act```
